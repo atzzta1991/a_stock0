@@ -157,3 +157,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 WAGTAIL_SITE_NAME = 'Đầu Tư 500'
+
+import django_heroku
+django_heroku.settings(locals())

@@ -3,11 +3,13 @@ autopep8==1.4.4
 beautifulsoup4==4.6.0
 certifi==2019.11.28
 chardet==3.0.4
+dj-database-url==0.5.0
 Django==2.2.7
 django-blog-zinnia==0.20
 django-contrib-comments==1.9.1
 django-dotenv==1.4.1
 django-el-pagination==3.2.4
+django-heroku==0.3.1
 django-js-asset==1.2.2
 django-modelcluster==5.0
 django-mptt==0.10.0
@@ -23,6 +25,7 @@ html5lib==1.0.1
 idna==2.8
 mots-vides==2015.5.11
 Pillow==6.2.1
+psycopg2==2.8.4
 pycodestyle==2.5.0
 pyparsing==2.4.5
 pytz==2019.3
@@ -36,4 +39,5 @@ urllib3==1.25.7
 wagtail==2.7
 wagtailfontawesome==1.1.4
 webencodings==0.5.1
+whitenoise==5.0.1
 Willow==1.3
